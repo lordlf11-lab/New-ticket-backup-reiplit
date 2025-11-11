@@ -1,0 +1,30 @@
+{
+  "name": "global-ticket-bot",
+  "version": "2.0.0",
+  "description": "بوت تذاكر متعدد السيرفرات متكامل",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "setup": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "canvas": "^2.11.2",
+    "discord.js": "^14.24.2",
+    "dotenv": "^16.6.1",
+    "mongoose": "^8.19.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "tickets",
+    "support",
+    "multi-server"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
